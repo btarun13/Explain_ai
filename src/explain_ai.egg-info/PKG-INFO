@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: explain-ai
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: captum>=0.7.0
+Requires-Dist: torch>=2.5.1
+Requires-Dist: torch-geometric>=2.6.1
+Requires-Dist: ruff>=0.7.2
+Requires-Dist: ipykernel>=6.29.5

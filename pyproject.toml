@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools","wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "explain-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "captum>=0.7.0",
+    "torch>=2.5.1",
+    "torch-geometric>=2.6.1",
+    "ruff>=0.7.2",
+    "ipykernel>=6.29.5",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.setuptools.package-dir]
+"" = "src" ## this is to source data from package, this this data would be within this source folder
