@@ -12,5 +12,5 @@ Requires-Dist: ruff>=0.7.2
 Requires-Dist: ipykernel>=6.29.5
 Requires-Dist: ogb>=1.3.6
 Requires-Dist: rdkit>=2024.3.5
-Requires-Dist: numpy>=2.1.2
+Requires-Dist: numpy<=2.1.2
 Requires-Dist: tqdm>=4.66.6
